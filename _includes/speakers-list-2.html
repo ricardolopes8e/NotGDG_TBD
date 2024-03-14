@@ -10,7 +10,7 @@
                         {% if speaker.ribbon != null %}
                         <ul class="ribbon-wrapper">
                             {% for ribbon in speaker.ribbon %}
-                            <li class="{{ ribbon["abbr"] | downcase }}">
+                            <li class="{{ ribbon[" abbr "] | downcase }}">
                                 <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
                                 <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                             </li>
@@ -37,7 +37,6 @@
             </div>
             {% endfor %}
         </div>
-        <a href="{{ site.c4pUrl }}" class="bottom-section-link btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Become a speaker</a>         
     </div>
 </section>
 <!-- End Speakers List 2 -->
