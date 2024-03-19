@@ -43,12 +43,11 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Sponsoring"}
+ - {permalink: "/logistics/", text: "Venue"}
+ - {permalink: "/hackathon/", text: "Sponsors"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -186,11 +185,6 @@ footerBlocks:
   title: "FAQ"
   links:
    - {permalink: "/cod/", text: "Code of Conduct"}
-
-# Blog
-blogTitle: "Latest news"
-blogCommentsEnabled: true
-discusShortName: "testermeetupua"
 
 # Speakers List Block
 showSessions: true
