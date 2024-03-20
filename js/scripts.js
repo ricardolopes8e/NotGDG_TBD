@@ -41,7 +41,7 @@
 
             if (scroll >= $('.top-section').height() && $(window).width() > 767) {
                 buyButton.removeClass('right-nav-button-hidden');
-            } else if (scroll < $('.top-section').height() && $(window).width() > 767){
+            } else if (scroll < $('.top-section').height() && $(window).width() > 767) {
                 buyButton.addClass('right-nav-button-hidden');
             }
 
@@ -100,10 +100,10 @@
             });
         });
         $(function() {
-            if(window.location.href.indexOf("schedule") > -1 && window.location.hash) {
+            if (window.location.href.indexOf("schedule") > -1 && window.location.hash) {
                 var hash = window.location.hash;
                 $(hash).click();
-            } 
+            }
         });
 
         $(function() {
@@ -221,7 +221,7 @@
                 slider.find('.slider-current-item').last().removeClass('slider-current-item').addClass('hidden');
             }
         });
-        $('.modal').on('hidden.bs.modal', function () {
+        $('.modal').on('hidden.bs.modal', function() {
             var iframe = $(this).find('iframe');
             iframe.attr('src', iframe.attr('src'));
         });
@@ -256,6 +256,7 @@
                 var $tweets = $('#tweets').find('.tweet'),
                     i = 0;
                 $($tweets.get(0)).removeClass('hidden');
+
                 function changeTweets() {
                     var next = (++i % $tweets.length);
                     $($tweets.get(next - 1)).addClass('hidden');
@@ -278,7 +279,7 @@
 
     // Google maps static
     if (typeof staticGoogleMaps !== 'undefined') {
-        $('#canvas-map').addClass('image-section').css('background-image','url(https://maps.googleapis.com/maps/api/staticmap?zoom=17&center=' + mobileCenterMapCoordinates +'&size=' + $(window).width() + 'x700&scale=2&language=en&markers=icon:' + icon +'|'+ eventPlaceCoordinates +'&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)');
+        $('#canvas-map').addClass('image-section').css('background-image', 'url(https://maps.googleapis.com/maps/api/staticmap?zoom=17&center=' + mobileCenterMapCoordinates + '&size=' + $(window).width() + 'x700&scale=2&language=en&markers=icon:' + icon + '|' + eventPlaceCoordinates + '&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)');
     }
 
     //Google maps
@@ -382,7 +383,7 @@
             if ($(window).width() < 768) {
                 mapOptions.center = mobileCenterMap;
             }
-            if (googleMaps == 'logistics') {
+            if (googleMaps == 'venue') {
                 mapOptions.zoom = 5;
                 mapOptions.zoomControl = true;
             }
@@ -405,7 +406,7 @@
             var zoomedMapType = new google.maps.StyledMapType(zoomedOpts, zoomedMapOptions);
             map.mapTypes.set('default', defaultMapType);
             map.mapTypes.set('zoomed', zoomedMapType);
-            if (googleMaps === 'logistics') {
+            if (googleMaps === 'venue') {
                 map.setMapTypeId('default');
                 var input = (document.getElementById('location-input'));
                 autocomplete = new google.maps.places.Autocomplete(input);
@@ -483,7 +484,7 @@
                 setDirectionInput(origin);
                 $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
             }
-            
+
             function calcRouteFromMyLocation() {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(function(position) {
