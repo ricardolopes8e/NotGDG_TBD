@@ -35,7 +35,7 @@ layout: compress
         }
     </script>
     <script src="{{ "/js/default.js" | prepend:site.baseurl}}"></script>
-    {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
+    {% if page.permalink == '/' or page.permalink == '/sponsors/' %}
     <script>
         if ($(window).width() > 767) {
             document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"><\/script>')
@@ -157,10 +157,10 @@ layout: compress
                     site.logisticsMapMobileCenterCoordinates
                 }
             }),
-            icon = '{{ site.baseurl }}/img/other/map-marker.svg'; { % elsif page.permalink == '/hackathon/' %
+            icon = '{{ site.baseurl }}/img/other/map-marker.svg'; { % elsif page.permalink == '/sponsors/' %
         }
-        if ($(window).width() > 767) {
-            var googleMaps = 'hackathon',
+        /*if ($(window).width() > 767) {
+            var googleMaps = 'sponsors',
                 eventPlace = new google.maps.LatLng({
                     {
                         site.hackathonPlaceCoordinates
@@ -189,7 +189,7 @@ layout: compress
             ','
             ' }}',
             icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
-        }
+        }*/
 
         { % endif %
         }
