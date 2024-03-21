@@ -50,7 +50,7 @@ navigationLinks:
  - {permalink: "/sponsors/", text: "Sponsors"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "hero2.jpg"
 heroTitle: "Testers Meetup <typeout> 2024"
 eventDate: "September - November, 2024"
 typeoutTextValues: '"", "Season", "Portugal", "Porto", "Lisbon"'
@@ -65,7 +65,7 @@ aboutBlock:
  - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
 
 # Statistic Block
-statisticBlockImage: "venueBanner.jpg"
+statisticBlockImage: "computerBanner.jpg"
 statisticBlock:
  - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
  - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
