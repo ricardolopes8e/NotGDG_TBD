@@ -3837,7 +3837,18 @@ nav li a:hover {
     font-weight: 100;
     margin: 0;
     padding: 20px 0;
-    background: #f2f2f2
+    background: #4285f4;
+    color: #000000
+}
+
+.pricing-col .title.Diamond {
+    background: #90e5e7
+}
+.pricing-col .title.Gold {
+    background: #d4af37
+}
+.pricing-col .title.Silver {
+    background: #C0C0C0
 }
 
 .pricing-col .price {
@@ -3858,9 +3869,19 @@ nav li a:hover {
     margin-top: 30px;
     padding: 7px 25px 10px;
     color: #fff;
-    background: #333;
+    background: #4285f4;
     font-weight: 100;
     text-decoration: none
+}
+
+.pricing-col .button.Diamond {
+    background: #90e5e7
+}
+.pricing-col .button.Gold {
+    background: #d4af37
+}
+.pricing-col .button.Silver {
+    background: #C0C0C0
 }
 
 .pricing-col .button:hover {

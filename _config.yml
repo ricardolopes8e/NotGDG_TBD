@@ -118,47 +118,59 @@ partnersTitle: "Partners"
 partnersC4sponsorsButton: "Become a sponsor"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Sponsorship Packages"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes and breakfast."
 ticketsOffers:
  -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
-  featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
- -
-  name: "Student"
+  name: "Silver"
   price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
+  priceCurrency: "EUR"
+  #ticketsNumber: "50"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["2 free tickets", "Stand at the venue", "Conference Dinner", "Logo on Website","Logo on conference booklet"]
   validFrom: "2014-08-20T10:00"
   validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
-
+  #soldOut: true
+  #soldOutText: "Sold Out"
+ -
+  name: "Gold"
+  price: "450"
+  priceCurrency: "EUR"
+  ticketsNumber: "100"
+  #ribbon: "-20%"
+  #featured: true
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["2 free tickets", "Stand at the venue", "1 video presentation (3 mins) of the company in all conference's social media", 5 stories in our Instagram featuring company", "Conference Dinner", "Logo on Website","Logo on conference booklet"]
+  validFrom: "2014-10-01T00:00"
+  validThrough: "2014-10-23T23:59"
+  #disabled: true
+ -
+  name: "Diamond"
+  price: "2000"
+  priceCurrency: "EUR"
+  ticketsNumber: "150"
+  #ribbon: "-5%"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["3 free tickets", "Stand at the venue","Online recorded warm-up event with company representatives","3 video presentations (3 mins) of the company in all conference's social media", 10 stories in our Instagram featuring company", "Conference Dinner", "Logo on Website","Logo on conference booklet"]
+  validFrom: "2014-08-25T10:00"
+  validThrough: "2014-09-30T23:59"
+ -
+  name: "Community Sponsor"
+  price: "100"
+  priceCurrency: "EUR"
+  #ticketsNumber: "50"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+  ticketContentList: ["Logo on website", "Logo on conference booklet"]
+  validFrom: "2014-08-20T10:00"
+  validThrough: "2014-10-23T23:59"
+  #soldOut: true
+  #soldOutText: "Sold Out"
 # Footer
 socialLinks:
  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
